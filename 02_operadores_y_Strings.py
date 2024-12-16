@@ -13,7 +13,7 @@ print('Hola'>='Bola') #verifica una ordenacion aflabetico EJEMPLO : A<B
 
 str_1='Murcielago'
 
-#operador length : este adiferencia de los demas va de 1 asta n
+#operador length : este adiferencia de los demas va de 0 asta n-1
 
 print('longitud de string 1:',len(str_1))
 
