@@ -19,3 +19,19 @@ print(type(my_variable_to_string))
 #funcion len sirve para medir el tamaño de un string
 print(len(my_variable_to_string))
 
+#Obtener datos (inputs):
+
+nombre_completo=input("Digita tu nombre completo:")
+ingresa_edad=input('cual es tu edad?:')
+
+print('Nombre:',nombre_completo)
+print('edad:',ingresa_edad)
+
+# ¿Forzar el tipado de las variables?
+
+adress :str = 'mi direccion'
+adress=22
+
+print(type(adress))
+
+
