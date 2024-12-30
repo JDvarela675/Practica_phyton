@@ -49,3 +49,14 @@ print(diccionario_2.values())
 
 #fromkeys() retorna un diccionario con las claves y valores que le pasemos
 diccionario_3 = dict.fromkeys(diccionario_2, 'valor')
+
+
+#Trabsformar un diccionario en una lista,tupla o set
+#list()
+print(list(diccionario_2))
+
+#tuple()
+print(tuple(diccionario_2))
+
+#set()
+print(set(diccionario_2))
