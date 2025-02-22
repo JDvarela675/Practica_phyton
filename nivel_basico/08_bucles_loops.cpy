@@ -31,7 +31,7 @@ valor_1=0
 print('contenido del diccionario:',diccionario_1)
 for i in diccionario_1.values():
     print('valores del diccionario:',i)
-    if i=='perez':
+    if i=='perez': # contidiconal dentro del bucle
         print('se detiene el bucle')
         break
 else:

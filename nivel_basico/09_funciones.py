@@ -56,3 +56,18 @@ def nombre_completo(nombre,apellido,segundo_nombre=''): #hay una variable defaul
     print(f'El nombre completo es :{nombre} {segundo_nombre} {apellido}')
 
 nombre_completo('Juan','Perez',segundo_nombre='Carlos')
+
+#ejercicio mas complejo
+
+def buscar_numero_figonacci(numero):
+    numero_fibonacci=0
+
+    if numero==0:
+        numero_fibonacci=0
+    elif numero==1:
+        umero_fibonacci=1
+    else:
+        numero_fibonacci=buscar_numero_figonacci(numero-1)+buscar_numero_figonacci(numero-2)
+
+
+
