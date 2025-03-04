@@ -25,4 +25,7 @@ def ninio(n):
             print("Niño", n, "comiendo pastel")
             num_pastel -= 1
     
-        
+        semaforo1.release() #liberar el semaforo
+
+
+
